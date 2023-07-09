@@ -1,0 +1,31 @@
+.Navegacion{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item__lista{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    list-style: none;
+    padding-right: 2rem;
+    transition: 1s linear;
+    color: rgb(167, 164, 164);
+}
+
+/* .inicial{
+    background-image: linear-gradient(45deg, #27561c, #4da32b, #eeff00);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+} */
+
+.lista{
+    display: flex;
+}
+
+.item__lista:hover{
+    color: #377b7e;   
+    cursor: pointer;
+}
+

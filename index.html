@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Tipos de letra -- />
+    <!- todas-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Belanosima:wght@700&family=Caprasimo&family=Lobster&family=Pacifico&family=Rye&family=Ysabeau+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hojas de estilo GOBALES-->
+    <link href="EstilosPadre/reset.css" rel="stylesheet" />
+    <link href="EstilosPadre/linea__separadora.css" rel="stylesheet" />
+    <link href="EstilosPadre/styleParticles.css" rel="stylesheet" />
+    <link href="EstilosPadre/titulos.css" rel="stylesheet" />
+
+    <!-- Header -->
+    <link href="Encabezado/Header.css" rel="stylesheet" />
+    <link href="Encabezado/logo__titulo.css" rel="stylesheet" />
+    <link href="Encabezado/lista__navegacion.css" rel="stylesheet" />
+    <link href="Encabezado/encabezado__principal.css" rel="stylesheet" />
+
+    <!-- Informacion sobre mi -->
+    <link href="Sobre__mi/Descripcion__sobre.css" rel="stylesheet" />
+    <link href="Sobre__mi/Imagen__sobre.css" rel="stylesheet" />
+    <link href="Sobre__mi/Sobre__mi.css" rel="stylesheet" />
+
+    <!-- Mis trabajos -->
+    <link href="Mistrabajos/misTrabajos.css" rel="stylesheet" />
+
+    <!-- Pagina Fruta y frutos -->
+    <link href="FrutayFrutos/imagenes_item1.css" rel="stylesheet" />
+    <link href="FrutayFrutos/imganesTrabajo1.css" rel="stylesheet" />
+    <link href="FrutayFrutos/tituloTrabajo1.css" rel="stylesheet" />
+
+    <title>Mi Portafolio</title>
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+
+    <section class="conteiner">
+        
+        <header class="Encabezado__principal">
+            <div class="Encabezado">
+                <div class="Logo__Titulo">
+                    <img class="imagen__logo" src="Zimg/letra-e.png" alt="Letra E" />
+                    <h1 class="Titulo">Mi Portafolio</h1>
+                </div>
+                <nav class="Navegacion">
+                    <ul class="lista">
+                        <li class="item__lista"><a href="index.html">Sobre Mi</a></li>
+                        <li class="item__lista"><a href="formaciones.html">Formacion</a> </li>
+                        <li class="item__lista"><a href="">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+      <section class="Sobre__mi">
+                <div class="">
+                    <p class="descripcion__sobre">
+                        Hola 👋 mi nombre es Edgar Rodriguez Tinajero, y soy desarrollador
+                        Front-End.
+                    </p>
+                    <div class="imagnes__redesSociales">
+                        <a href="https://github.com/EdgarRTDev" target="_blank"><img class="logo__redSocial" src="Zimg/IconosRedesSociales/github.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/edgar-rodriguez-tinajero-7b3404268/" target="_blank"><img class="logo__redSocial" src="Zimg/IconosRedesSociales/linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+                
+                <div class="imagen__sobre">
+                    <div class="borde__imagen"></div>
+                    <img class="imagen__sobre" src="Zimg/YoConTraje.jpg" alt="Foto-elegante"/>
+                </div>
+      </section>
+
+      <section class="misTrabajos">
+        <h1 class="titulos">Trabajos realizados</h1>
+        <div class="linea__separadora"></div>
+        <!-- ----------------------------------- -->
+        <div class="trabajos__realizados">
+          <h2 class="titulo__trabajo">Pagina "Fruta & Fruto"</h2>
+          <h3 class="version_pagina">Version Pagina WEB</h3>
+          <div class="img__frutafrutos">
+            <img
+              class="imagen__item"
+              src="Zimg/CapturasFrutifrutos/Inicio.png"
+              alt="Inicio-pagina"
+            />
+            <img
+              class="imagen__item"
+              src="Zimg/CapturasFrutifrutos/recetas.png"
+              alt="recetas-pagina"
+            />
+            <img
+              class="imagen__item"
+              src="Zimg/CapturasFrutifrutos/final.png"
+              alt="final-pagina"
+            />
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Scrip para las particulas -->
+    <script src="Particles/particles.min.js"></script>
+    <script src="Particles/app.js"></script>
+  </body>
+</html>

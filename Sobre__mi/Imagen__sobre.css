@@ -1,0 +1,40 @@
+.imagen__sobre{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.logo__redSocial{
+    width: 30px;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.imagnes__redesSociales{
+    display: flex;
+    justify-content: center;
+}
+
+.borde__imagen{
+    background: linear-gradient(50deg, #483e49, #32033b);
+    height: 530px;
+    width: 430px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    animation: gradient 5s linear infinite;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 80rem 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}

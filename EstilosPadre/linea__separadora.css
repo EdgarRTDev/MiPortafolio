@@ -1,0 +1,13 @@
+.linea__separadora{
+    width: 30%;
+    height: 3px;
+    background: gray;
+}
+
+body{
+    background: linear-gradient(100deg,#6a3f6b,#2c0a2c, #210125);
+}
+
+/*  #caefd7, #8f9609) 
+#42e695, #3bb2b8
+#40e340, #59ffd6*/
