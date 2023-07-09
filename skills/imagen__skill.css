@@ -6,7 +6,7 @@
 }
 
 .borde__imagenSkills{
-    background: linear-gradient(50deg, #c7b2c9, #953ba7);
+    background: linear-gradient(50deg, #645a66, #31043a);
     width: 280px;
     height: 280px;
     border-radius: 50%;
@@ -24,6 +24,12 @@
 
 .JavaScript{
     border-radius: 50%;
+}
+
+.SQL__RS{
+    width: 200px;
+    left: 25px;
+    top: 25px;
 }
 
 

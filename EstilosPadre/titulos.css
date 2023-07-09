@@ -1,7 +1,37 @@
 .titulos{
-    padding-left: 30px;
     font-family: 'Rye', cursive;
-    font-size: 30px;
-    margin-top: 2.5rem;
-    color: #faebd7;
+    font-size: 40px;
+    margin-top: 1.5rem;
+    color: #cdadd1;
+    align-self: flex-end;
+    margin-bottom: 6px;
 }
+
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.circulo{
+    width: 60px;
+    height: 60px;
+    background: #470a53;
+    border-radius: 50%;
+    
+    /* background: linear-gradient(10deg, #33113a,#3a1841, #32083a); */
+}
+
+.linea{
+    width: 3px;
+    height: 15rem;
+    background: linear-gradient(50deg, #470a53,#480d53,#6d3479, #c629e6,#cdadd1);
+    align-items: end;
+}
+
+
+/* 
+<div class="separador">
+            <div class="separador circulo"></div>
+            <div class="separador linea"></div>
+          </div> */
