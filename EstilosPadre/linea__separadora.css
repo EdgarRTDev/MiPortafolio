@@ -1,7 +1,7 @@
 .linea__separadora{
-    width: 30%;
+    width: 25%;
     height: 3px;
-    background: rgb(238, 205, 205);
+    background: linear-gradient(100deg,#d8c7d8,#db82db, #52055c);
 }
 
 body{
