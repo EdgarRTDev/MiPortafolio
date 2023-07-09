@@ -6,7 +6,8 @@
 }
 
 .borde__imagenSkills{
-    background: linear-gradient(50deg, #645a66, #31043a);
+    /* background: linear-gradient(50deg, #645a66, #31043a); */
+    background: linear-gradient(50deg,#6d3479, #8a1da0,#cdadd1);
     width: 280px;
     height: 280px;
     border-radius: 50%;
