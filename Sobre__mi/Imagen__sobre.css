@@ -5,6 +5,17 @@
     position: relative;
 }
 
+.borde__imagen{
+    background: linear-gradient(50deg, #483e49, #32033b);
+    height: 530px;
+    width: 430px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    animation: gradient 5s linear infinite;
+}
+
 .logo__redSocial{
     width: 30px;
     margin-left: 1rem;
@@ -16,16 +27,7 @@
     justify-content: center;
 }
 
-.borde__imagen{
-    background: linear-gradient(50deg, #483e49, #32033b);
-    height: 530px;
-    width: 430px;
-    border-radius: 50%;
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    animation: gradient 5s linear infinite;
-}
+
 
 @keyframes gradient {
     0%{

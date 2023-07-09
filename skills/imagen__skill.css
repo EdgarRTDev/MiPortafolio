@@ -1,0 +1,52 @@
+.imagen__conocimientos{
+    margin-left:  15px;
+    margin-top: 15px;
+    width: 250px;
+    position: absolute;
+}
+
+.borde__imagenSkills{
+    background: linear-gradient(50deg, #c7b2c9, #953ba7);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.conocimientos{
+    width: 95vW;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.JavaScript{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/* .imagen__sobre{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.borde__imagen{
+    background: linear-gradient(50deg, #483e49, #32033b);
+    height: 530px;
+    width: 430px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    animation: gradient 5s linear infinite;
+} */

@@ -1,6 +1,8 @@
 .Sobre__mi{
         display: flex;
         justify-content: space-around;
-        margin-top: 2rem;
+        margin-top: 6rem;
         align-items: center;
+        width: 95vw;
+        margin-bottom: 23vh;
 }
