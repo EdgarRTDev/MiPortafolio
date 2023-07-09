@@ -9,7 +9,7 @@
     list-style: none;
     padding-right: 2rem;
     transition: 1s linear;
-    color: #faebd7;
+    color: #5e5c5a;
 }
 
 /* .inicial{
@@ -25,7 +25,7 @@
 }
 
 .item__lista:hover{
-    color: #377b7e;   
+    color: #0dd8ac;   
     cursor: pointer;
 }
 

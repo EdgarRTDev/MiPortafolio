@@ -1,7 +1,7 @@
 .imagen__conocimientos{
-    margin-left:  15px;
-    margin-top: 15px;
-    width: 250px;
+    margin-left:  35px;
+    margin-top: 35px;
+    width: 210px;
     position: absolute;
 }
 
@@ -12,12 +12,12 @@
     height: 280px;
     border-radius: 50%;
     position: relative;
-    margin-top: 40px;
-    margin-left: 15px;
+    margin-top: 3rem;
+    margin-left: 4rem;
 }
 
 .conocimientos{
-    width: 95vW;
+    width: 93%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -29,8 +29,8 @@
 
 .SQL__RS{
     width: 200px;
-    left: 25px;
-    top: 25px;
+    left: 5px;
+    top: 15px;
 }
 
 

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Zimg/IconosRedesSociales/album-de-fotos.png">
     
     <!-- Tipos de letra -- />
     <!- todas-->
@@ -12,9 +13,11 @@
 
     <!-- Hojas de estilo GOBALES-->
     <link href="EstilosPadre/reset.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="EstilosPadre/linea__separadora.css" rel="stylesheet" />
     <link href="EstilosPadre/styleParticles.css" rel="stylesheet" />
     <link href="EstilosPadre/titulos.css" rel="stylesheet" />
+    <link href="EstilosPadre/flecha.css" rel="stylesheet" />
 
     <!-- Header -->
     <link href="Encabezado/Header.css" rel="stylesheet" />
@@ -49,7 +52,7 @@
         <header class="Encabezado__principal">
             <div class="Encabezado">
                 <div class="Logo__Titulo">
-                    <img class="imagen__logo" src="Zimg/Letter-E-PNG-Stock-Photo.png" alt="Letra E" />
+                    <img class="imagen__logo" src="Zimg/fantasma (1).png" alt="Letra E" />
                     <h1 class="Titulo">Mi Portafolio</h1>
                 </div>
                 <nav class="Navegacion">
@@ -80,6 +83,10 @@
                 </div>
         </section>
 
+        <div class="flecha">
+          <img class="img_flecha" src="Zimg/abajo-cheuron.png" alt="flecha_apuntando_abajo">
+        </div>
+
         <section class="Skills">
           <div class="separador">  
               <div class="separador circulo">
@@ -89,40 +96,34 @@
               </div>                    
           </div>
 
-          <!-- <div class="seccion__fondo">
-            <div class="fondo">
-               <h1 class="titulos">Skills</h1> 
-            </div>
-          </div> -->
-
           <section class="conocimientos">
             <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+              <div class="borde__imagenSkills" data-aos="fade-right">
                 <img class="imagen__conocimientos" src="Zimg/conocimientos__img/css-3.png" alt="Img CSS"/>
               </div>
             </div>
             <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+              <div class="borde__imagenSkills" data-aos="fade-right">
                 <img class="imagen__conocimientos" src="Zimg/conocimientos__img/html-5.png" alt="Img HTML"/>
               </div>
             </div>
-            <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+            <div class="conteiner__fondo_imagen" >
+              <div class="borde__imagenSkills" data-aos="fade-left">
                 <img class="imagen__conocimientos JavaScript" src="Zimg/conocimientos__img/js.png" alt="Img JavaScript"/>
               </div>
             </div>
             <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+              <div class="borde__imagenSkills" data-aos="fade-left">
                 <img class="imagen__conocimientos" src="Zimg/conocimientos__img/java.png" alt="Img Java"/>
               </div>
             </div>
             <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+              <div class="borde__imagenSkills" data-aos="fade-down-right">
                 <img class="imagen__conocimientos SQL__RS" src="Zimg/conocimientos__img/servidor-sql.png" alt="Img SQL"/>
               </div>
             </div>
             <div class="conteiner__fondo_imagen">
-              <div class="borde__imagenSkills">
+              <div class="borde__imagenSkills" data-aos="fade-down-left">
                 <img class="imagen__conocimientos SQL__RS" src="Zimg/conocimientos__img/redes-sociales.png" alt="Img Redes Sociales"/>
               </div>
             </div>
@@ -161,5 +162,12 @@
     <!-- Scrip para las particulas -->
     <script src="Particles/particles.min.js"></script>
     <script src="Particles/app.js"></script>
+
+    <!-- Animaciones Imagenes -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({
+      duration: 1000,
+      once:true
+    });</script>
   </body>
 </html>

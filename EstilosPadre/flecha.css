@@ -1,0 +1,23 @@
+.img_flecha{
+    width: 30px;
+    animation: arribaAbajo 1.5s infinite;
+}
+
+.flecha{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes arribaAbajo {
+    0%{
+        transform: translateY(-12px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+    
+    
+}
