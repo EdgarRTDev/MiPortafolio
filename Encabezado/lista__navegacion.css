@@ -4,12 +4,14 @@
 }
 
 .item__lista{
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: "Balance";
+    /* font-family: "Xtradex"; */
     font-size: 2rem;
     list-style: none;
     padding-right: 2rem;
     transition: 1s linear;
-    color: #5e5c5a;
+    color: #a1cfce;
 }
 
 /* .inicial{
@@ -27,5 +29,9 @@
 .item__lista:hover{
     color: #0dd8ac;   
     cursor: pointer;
+}
+
+.active{
+    color: #0dd8ac;
 }
 

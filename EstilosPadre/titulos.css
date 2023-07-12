@@ -1,0 +1,22 @@
+.titulos{
+    font-size: 60px;
+    color: #edd11c;
+    text-align: center;
+    font-family: "Xtradex";
+
+    background-image: linear-gradient(1deg, #ff01e1, #53114a, #ff00dd);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@font-face{
+    font-family: "Balance";
+    src: url(./../CarpetaFuentes/balance_2/Balance.otf);
+}
+
+@font-face{
+    font-family: "Xtradex";
+    src: url(./../CarpetaFuentes/xtradex/Xtradex.otf);
+}
