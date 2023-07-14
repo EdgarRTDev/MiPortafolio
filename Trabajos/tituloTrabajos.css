@@ -1,0 +1,55 @@
+.titulo__trabajo{
+    font-size: 30px;
+    font-family: "Balance";
+    padding-top: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ebf445;
+    /* background-image: linear-gradient(360deg, #58e458, #e84141, #fe7f00);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
+}
+
+.container__principal{
+    margin-left: 3rem;
+    align-items: center;
+    display: flex;
+    width: 93vw;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+    /* background: linear-gradient(100deg,#6a3f6b,#2c0a2c, #210125); */
+}
+
+.imagen__item{
+    width: 400px;
+    align-items: center;
+}
+
+/* ------------------------------------------ */
+
+.descripcion{
+    width: 500px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.proyecto_git{
+    width: 40px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.descripcion__proyecto{
+    margin-left: 2rem;
+}
+
+/* ------------------------------------------ */
+
+.Referencia{
+    display: flex;
+}
+
