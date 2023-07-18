@@ -1,0 +1,77 @@
+.conteiner_proyectos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+.tarjeta{
+    width: 450px;
+    height: 500px;
+    background: linear-gradient(50deg,#6d3479, #8a1da0,#cdadd1);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.imagen_proyecto{
+    width: 450px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.titulo_trabajo{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+
+.tecnologias_usadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.uso{
+    font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(240, 232, 182);
+}
+
+.img_tecnologia{
+    width: 50px;
+    height: 50px;
+}
+
+.responsive{
+    width: 60px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.descripcion_proyecto{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+}
+
+.referencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    color: rgb(240, 232, 182);
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-right: 5px;
+}
+
+.link_proyecto{
+    width: 30px;
+}
