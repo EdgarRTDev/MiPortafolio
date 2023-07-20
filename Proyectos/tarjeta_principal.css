@@ -2,9 +2,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 70px;
-    margin-right: 70px;
-    
 }
 
 .tarjeta{
@@ -13,6 +10,7 @@
     background: linear-gradient(50deg,#6d3479, #8a1da0,#cdadd1);
     border-radius: 20px;
     margin-bottom: 2rem;
+    margin-left: 5px;
 }
 
 .imagen_proyecto{
