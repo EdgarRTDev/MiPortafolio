@@ -3,3 +3,9 @@
     height: 70px;
     padding-left: 1rem;
 }
+
+@media screen and (max-width:768px){
+    .imagen__logo{
+        display: none;
+    }
+}
