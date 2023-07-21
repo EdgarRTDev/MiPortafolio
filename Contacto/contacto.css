@@ -1,0 +1,27 @@
+.conteiner_contacto{
+    display: flex;
+}
+
+.img_megafono{
+    width: 400px;
+    
+    animation: arribaAbajo 1.5s infinite;
+}
+
+.item_contacto{
+    width: 100PX;
+}
+
+@keyframes arribaAbajo {
+    0%{
+        transform: scale (-30px );
+    }
+    50%{
+        transform: scale (-30px );
+    }
+    100%{
+        transform: scale (-30px );
+    }
+    
+    
+}

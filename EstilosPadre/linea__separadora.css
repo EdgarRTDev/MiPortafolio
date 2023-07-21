@@ -1,5 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(100deg,#6a3f6b,#2c0a2c, #210125);
+}
+
+body::-webkit-scrollbar{
+    width: 15px;   
+}
+
+/* thumb es la parte pequeña que se va moviendo al realizar el scroll */
+
+body::-webkit-scrollbar-thumb{
+    background: #4b2e4b;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #4e334f;
+}
+
+/* Track es toda la barra del scroll */
+
+body::-webkit-scrollbar-track{ 
+    background: #210125;
 }
 
 /*  #caefd7, #8f9609) 

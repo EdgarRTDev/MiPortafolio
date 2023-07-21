@@ -37,6 +37,9 @@
     <!-- <link href="Trabajos/tituloTrabajos.css" rel="stylesheet" /> -->
     <link href="Proyectos/tarjeta_principal.css"  rel="stylesheet" />
 
+    <!-- Contacto -->
+    <link href="Contacto/contacto.css" rel="stylesheet" />
+
     <title>Mi Portafolio</title>
   </head>
 
@@ -45,7 +48,7 @@
 
     <section class="conteiner">
         
-        <header class="Encabezado__principal">
+        <header class="Encabezado__principal" >
             <div class="Encabezado">
                 <div class="Logo__Titulo">
                     <img class="imagen__logo" src="Zimg/fantasma (1).png" alt="Letra E" />
@@ -53,15 +56,15 @@
                 </div>
                 <nav class="Navegacion">
                     <ul class="lista">
-                        <li class="item__lista active" ><a href="index.html">Inicio</a></li>
-                        <li class="item__lista" ><a href="formaciones.html">Proyectos</a> </li>
-                        <li class="item__lista" ><a href="">Contacto</a></li>
+                        <li class="item__lista" ><a href="#inicio">Skills</a></li>
+                        <li class="item__lista" ><a href="#Proyectos">Proyectos</a> </li>
+                        <li class="item__lista" ><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
-        <section class="Sobre__mi">
+        <section class="Sobre__mi" >
                 <div class="Banner">
                     <p class="descripcion__sobre">
                         Hola 👋 mi nombre es Edgar Rodriguez Tinajero, y soy desarrollador
@@ -80,18 +83,12 @@
                 </div>
         </section>
 
-        <div class="flecha">
+        <div class="flecha" id="inicio">
           <img class="img_flecha" src="Zimg/abajo-cheuron.png" alt="flecha_apuntando_abajo">
         </div>
 
-        <section class="Skills">
-          <div class="separador">  
-              <div class="separador circulo">    
-                  <h1 class="titulos">Skills</h1>  
-                </div>
-              </div>                    
-          </div>
-
+        <section class="Skills" >
+          <h1 class="titulos">Skills</h1> 
           <section class="conocimientos">
             <div class="conteiner__fondo_imagen">
               <div class="borde__imagenSkills" data-aos="flip-down">
@@ -126,7 +123,7 @@
           </section>
         </section>
 
-      <section class="misTrabajos">
+      <section class="misTrabajos" id="Proyectos">
         <h1 class="titulos">Trabajos realizados</h1>
         <!-- ----------------------------------- -->
         <div class="conteiner_proyectos">
@@ -223,12 +220,11 @@
 
           <div class="tarjeta" data-aos="flip-down">
             <img class="imagen_proyecto" src="Zimg/Proyectos/Appeperia.png">
-            <h2 class="titulo_trabajo">DOOM</h2>
+            <h2 class="titulo_trabajo">Appeperia</h2>
             <div class="tecnologias_usadas">
               <p class="uso">Tecnologias Utlizadas:</p>
               <img class="img_tecnologia" src="Zimg/conocimientos__img/html-5.png">
               <img class="img_tecnologia" src="Zimg/conocimientos__img/css-3.png">
-              <img class="img_tecnologia" src="Zimg/conocimientos__img/js.png">
             </div>
             <p class="descripcion_proyecto">
               Appeperia es el proyecto donde comprendi todo lo basico de una pagina web, con respecto 
@@ -242,8 +238,23 @@
         </div>
       </section>
 
-      <section class="Contacto">
+      <section class="Contacto" id="contacto">
         <h1 class="titulos">Contacto</h1>
+        <div class="conteiner_contacto">
+          <div class="contacto_inicio">
+            <img class="img_megafono" src="Zimg/contacto/ventas.png" alt="megafono">
+          </div>
+          <div class="tiposContacto">
+          <div class="parrafos">
+            <h2 class="solicitud">"No dudes en contactarme y caminemos juntos al Exito!!"</h2>
+            <h3 class="solicitud_texto">Siempre estoy listo para nuevas experiencias, desafios y sobre todo aprendisajes</h3>
+          </div class="Lista_contactos">
+            <p class="TContacto">Tipos de contacto: </p>
+            <a href="https://github.com/EdgarRTDev" target="_blank"><img class="item_contacto" src="Zimg/IconosRedesSociales/github.png" alt="Github"></a>
+            <a href="https://outlook.live.com/mail/0/" target="_blank"><img class="item_contacto" src="Zimg/IconosRedesSociales/panorama.png" alt="Correo"></a>
+            <a href="https://www.linkedin.com/in/edgar-rodriguez-tinajero-7b3404268/" target="_blank"><img class="item_contacto" src="Zimg/IconosRedesSociales/linkedin.png" alt="Linkedin"></a>
+          </div>
+        </div>
       </section>
 
     </section>
@@ -258,8 +269,5 @@
       duration: 1000,
       once:true
     });</script>
-
-    <!-- Scrip barra navegacion -->
-    <script src="MisJavaScript/barraNavegacion.js"></script>
   </body>
 </html>
