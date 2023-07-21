@@ -1,26 +1,46 @@
 .conteiner_contacto{
     display: flex;
+    margin: auto;
+    width: 980px;
 }
 
 .img_megafono{
     width: 400px;
-    
-    animation: arribaAbajo 1.5s infinite;
+    transform: rotate(-20deg);
+    animation: Lados 1.5s infinite;
+}
+
+.tiposContacto{
+    margin-left: 4rem;
+}
+
+.solicitud{
+    font-family: "Rockhead";
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.Lista_contactos{
+    display: flex;
+    justify-content: center;
 }
 
 .item_contacto{
-    width: 100PX;
+    width: 60PX;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
 }
 
-@keyframes arribaAbajo {
+@keyframes Lados {
     0%{
-        transform: scale (-30px );
+        transform:translateY(-30px),rotate(-20deg);
     }
     50%{
-        transform: scale (-30px );
+        transform: translateY(0px);
     }
     100%{
-        transform: scale (-30px );
+        transform: translateY(-30px),rotate(-20deg);
     }
     
     

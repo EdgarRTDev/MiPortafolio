@@ -2,8 +2,8 @@
     font-size: 60px;
     color: #edd11c;
     text-align: center;
-    font-family: "Xtradex";
-    margin-bottom: 3rem;
+    font-family: "nuck";
+    margin-bottom: 1rem;
     background-image: linear-gradient(1deg, #ff01e1, #53114a, #ff00dd);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -12,11 +12,13 @@
 }
 
 @font-face{
-    font-family: "Balance";
-    src: url(./../CarpetaFuentes/balance_2/Balance.otf);
+    font-family: "Rockhead";
+    src: url(./../CarpetaFuentes/Wonderful-Font-Bundle-6212264-1/Rockhead/Rockhead-Rough.otf);
 }
 
 @font-face{
-    font-family: "Xtradex";
-    src: url(./../CarpetaFuentes/xtradex/Xtradex.otf);
+    font-family: "nuck";
+    src: url(./../CarpetaFuentes/Knucklehead-1/Knucklehead-1.otf);
 }
+
+
