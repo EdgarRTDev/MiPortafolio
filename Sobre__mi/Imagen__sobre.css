@@ -28,6 +28,19 @@
 }
 
 
+@media screen and (max-width:400px){
+    .borde__imagen{
+        height: 330px;
+        width: 230px;
+    }
+    .imagen__sobre{
+        height: 300px;
+        width: 200px;
+    }
+    .Banner{
+        margin-bottom: 2rem
+    }
+}
 
 @keyframes gradient {
     0%{
